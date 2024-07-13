@@ -1,12 +1,12 @@
 import Nav from '../src/Components/Nav';
-import Hero from '../src/Components/Hero';
+import Coffee from '../src/Components/Coffee';
 
 
 export default function HomePage() {
   return (
     <>
     <Nav />
-    <Hero />
+    <Coffee />
     
     </>
   )

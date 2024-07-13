@@ -1,6 +1,7 @@
 function Hero() {
   return (
-    <div className="py-20 flex justify-around bg-red-100">
+    
+    <div className="pt-28 flex justify-around bg-red-100">
         <div className="">
             <h1 className="font-serif text-3xl tracking-widerx">ENCHANTED AROMA</h1>
             <p className="pt-8 Dancing">Coffee & Pastry for you</p>
@@ -13,11 +14,12 @@ function Hero() {
                quality. Whether you're a coffee connoisseur or a pastry lover, our menu has <br/> something special for everyone.</p>
         </div>
         <div className="text-center">
-          <img className="w-96 pt-10" src="../public/images/image-1.png"/>
+          <img className="w-96 " src="../public/images/image-1.png"/>
           <p className="font-medium text-sm tracking-wide">For the love of coffee and the joy of pastries,<br/>
           we look forward to welcoming you to our cafe !</p>
-          <div className="mt-10" >
-            <a className=" bg-black py-2 px-6 text-white rounded-full" href="">ABOUT US</a>
+          <div className="my-10" >
+          
+            <a className="bg-black text-white flex justify-center py-4 items-center text-xs rounded-full hover:text-red-200" href="/about"><img className="w-4 h-4 mr-2" src="../public/images/keranjang.png"/>DELIVERY ORDER</a>
           </div>
         </div>
     </div>
