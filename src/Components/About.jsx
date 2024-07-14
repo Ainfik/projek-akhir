@@ -23,7 +23,7 @@ function About() {
               ensuring a rich and flavorful experience with every sip.
             </p>
             <div className="mt-14" >
-              <a className=" bg-black py-4 px-14 text-xl text-white rounded-lg" href="">Our Coffee</a>
+              <a className=" bg-black py-4 px-14 text-xl text-white rounded-lg" href="/D">Our Coffee</a>
             </div>
           </div>
           <div className="text-center">

@@ -19,7 +19,7 @@ function Hero() {
           we look forward to welcoming you to our cafe !</p>
           <div className="my-10" >
           
-            <a className="bg-black text-white flex justify-center py-4 items-center text-xs rounded-full hover:text-red-200" href="/about"><img className="w-4 h-4 mr-2" src="../public/images/keranjang.png"/>DELIVERY ORDER</a>
+            <a className="bg-black text-white flex justify-center py-4 items-center text-xs rounded-full hover:text-red-200" href="/D"><img className="w-4 h-4 mr-2" src="../public/images/keranjang.png"/>DELIVERY ORDER</a>
           </div>
         </div>
     </div>

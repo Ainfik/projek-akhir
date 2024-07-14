@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Coffee() {
+function NonCoffee() {
   return (
     <div className='py-24 bg-red-100'>
         <div className='flex justify-center pb-10'>
-                <a onClick="ShowLogin()" className=" text-2xl font-bold bg-[#C7B3B3] px-4 py-2 rounded-lg" href="/D">COFFEE</a>
-                <a onClick="ShowRegister()" className="mx-28 text-2xl font-bold hover:bg-[#C7B3B3] px-4 py-2 rounded-lg" href="/D2">NON COFFEE</a>
+                <a onClick="ShowLogin()" className=" text-2xl font-bold  hover:bg-[#C7B3B3] px-4 py-2 rounded-lg " href="/D">COFFEE</a>
+                <a onClick="ShowRegister()" className="mx-28 text-2xl font-bold bg-[#C7B3B3] px-4 py-2 rounded-lg" href="/D2">NON COFFEE</a>
                 <a className=" text-2xl font-bold hover:bg-[#C7B3B3] px-4 py-2 rounded-lg" href="/D3">PASTRIES</a>
         </div>
         <div id='coffee' className='' >
@@ -83,4 +83,4 @@ function Coffee() {
   )
 }
 
-export default Coffee
+export default NonCoffee
